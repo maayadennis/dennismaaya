@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #16202a;
+
+    line-height: 1.6;
+
+    background: white;
+}
+
+
+.container {
+    width: 90%;
+
+    max-width: 1100px;
+
+    margin: auto;
+}
+
+
+header {
+    border-bottom: 1px solid #e5e5e5;
+
+    background: white;
+}
+
+
+nav {
+    width: 90%;
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    min-height: 70px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+
+.logo {
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+
+.nav-links {
+    display: flex;
+
+    gap: 25px;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+
+    color: #555;
+}
+
+
+.nav-links a:hover {
+    color: #176b87;
+}
+
+
+/* HERO */
+
+.hero {
+    padding: 120px 5%;
+
+    background: #f4f8fa;
+}
+
+
+.hero-text {
+    max-width: 850px;
+
+    margin: auto;
+}
+
+
+.eyebrow {
+    color: #176b87;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    font-size: 65px;
+
+    line-height: 1.05;
+
+    letter-spacing: -3px;
+
+    margin-bottom: 25px;
+}
+
+
+.hero p {
+    max-width: 700px;
+
+    color: #65727c;
+
+    font-size: 18px;
+}
+
+
+.buttons {
+    margin-top: 30px;
+
+    display: flex;
+
+    gap: 12px;
+}
+
+
+.button {
+    display: inline-block;
+
+    padding: 12px 22px;
+
+    background: #176b87;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 30px;
+
+    font-weight: bold;
+}
+
+
+.button:hover {
+    background: #0d4e64;
+}
+
+
+.button.outline {
+    background: white;
+
+    color: #176b87;
+
+    border: 1px solid #176b87;
+}
+
+
+/* SECTIONS */
+
+section {
+    padding: 90px 0;
+}
+
+
+h2 {
+    font-size: 42px;
+
+    line-height: 1.1;
+
+    margin-bottom: 25px;
+}
+
+
+.large-text {
+    font-size: 20px;
+
+    max-width: 750px;
+
+    margin-bottom: 20px;
+}
+
+
+#about p {
+    max-width: 800px;
+}
+
+
+.light {
+    background: #f5f7f8;
+}
+
+
+/* SERVICES */
+
+.services {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+
+.card {
+    background: white;
+
+    padding: 30px;
+
+    border: 1px solid #e1e6e9;
+
+    border-radius: 15px;
+}
+
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+
+.card p {
+    color: #65727c;
+}
+
+
+/* PROJECTS */
+
+.projects {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 25px;
+}
+
+
+.project {
+    border: 1px solid #ddd;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+}
+
+
+.project-header {
+    background: #17313c;
+
+    color: white;
+
+    padding: 35px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+
+.project-body {
+    padding: 30px;
+}
+
+
+.project-body p {
+    color: #65727c;
+
+    margin: 15px 0;
+}
+
+
+.text-link {
+    color: #176b87;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+
+/* PROCESS */
+
+.process {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 25px;
+}
+
+
+.process strong {
+    color: #176b87;
+}
+
+
+.process h3 {
+    margin: 8px 0;
+}
+
+
+.process p {
+    color: #65727c;
+}
+
+
+/* CONTACT */
+
+.contact {
+    background: #0d4e64;
+
+    color: white;
+}
+
+
+.contact .eyebrow {
+    color: #a8d9e5;
+}
+
+
+.contact p {
+    color: #d2e0e5;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 30px 5%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    color: #65727c;
+
+    font-size: 14px;
+}
+
+
+/* MOBILE */
+
+@media(max-width: 800px) {
+
+    h1 {
+        font-size: 45px;
+    }
+
+
+    .services {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .projects {
+        grid-template-columns: 1fr;
+    }
+
+
+    .process {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .nav-links {
+        display: none;
+    }
+
+}
+
+
+@media(max-width: 500px) {
+
+    h1 {
+        font-size: 38px;
+    }
+
+
+    .services {
+        grid-template-columns: 1fr;
+    }
+
+
+    .process {
+        grid-template-columns: 1fr;
+    }
+
+
+    footer {
+        flex-direction: column;
+    }
+
+}
