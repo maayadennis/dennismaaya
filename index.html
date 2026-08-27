@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dennis Maaga — research support, data analysis and technical/scientific report writing for researchers, consultants and small teams.">
 
-    <title>Dennis Maaga | Research & Data Analysis</title>
+    <title>Dennis Maaga | Research, Data Analysis & Technical Reporting</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,14 +15,20 @@
 
     <header>
         <nav>
-            <div class="logo">DENNIS MAAGA</div>
+            <div class="logo">DENNIS<span>.</span>MAAGA</div>
 
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
                 <a href="#about">About</a>
                 <a href="#services">Services</a>
-                <a href="#work">Portfolio</a>
-                <a href="#contact">Contact</a>
+                <a href="#work">Work</a>
+                <a href="#contact" class="button">Start a project</a>
             </div>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
     </header>
 
@@ -29,38 +36,49 @@
     <!-- HERO -->
 
     <section class="hero">
+        <div class="container">
 
-        <div class="hero-text">
+            <div class="hero-text">
 
-            <p class="eyebrow">
-                RESEARCH • DATA • TECHNICAL REPORTING
-            </p>
+                <p class="tag eyebrow">RESEARCH · DATA · TECHNICAL REPORTING</p>
 
-            <h1>
-                Turning complex information
-                into clear, useful work.
-            </h1>
+                <h1>
+                    Complex information, resolved
+                    into a report you can act on.
+                </h1>
 
-            <p>
-                I help researchers, consultants and small businesses
-                organize data, perform practical analysis and produce
-                professional technical reports.
-            </p>
+                <p>
+                    I help researchers, consultants and small teams organize
+                    raw data, run the analysis, and produce technical reports
+                    that hold up to scrutiny — clearly written and properly
+                    structured.
+                </p>
 
-            <div class="buttons">
-
-                <a href="#work" class="button">
-                    View My Work
-                </a>
-
-                <a href="#contact" class="button outline">
-                    Work With Me
-                </a>
+                <div class="buttons">
+                    <a href="#work" class="button">View my work</a>
+                    <a href="#contact" class="button outline">Start a project</a>
+                </div>
 
             </div>
 
-        </div>
+            <div class="readout">
+                <div class="readout-inner">
+                    <div class="readout-item">
+                        <span class="tag">Background</span>
+                        <strong>BSc Industrial Chemistry, JKUAT</strong>
+                    </div>
+                    <div class="readout-item">
+                        <span class="tag">Coverage</span>
+                        <strong>Chemistry · Biology · Physics · Data</strong>
+                    </div>
+                    <div class="readout-item">
+                        <span class="tag">Based in</span>
+                        <strong>Nairobi, Kenya — remote worldwide</strong>
+                    </div>
+                </div>
+            </div>
 
+        </div>
     </section>
 
 
@@ -70,22 +88,27 @@
 
         <div class="container">
 
-            <p class="eyebrow">ABOUT</p>
+            <p class="tag">01 — ABOUT</p>
 
             <h2>
                 Scientific thinking. Practical delivery.
             </h2>
 
             <p class="large-text">
-                I'm Dennis Maaga, a science graduate with an interest
-                in research, data analysis, technical documentation
-                and practical problem-solving.
+                I'm Dennis Maaga, an industrial chemist by training with a
+                working range across chemistry, biology and physics — and a
+                habit of turning raw information into something a reader can
+                actually use.
             </p>
 
             <p>
-                I help clients transform raw information into
-                structured datasets, meaningful analysis, clear
-                visualizations and professional reports.
+                My background is in the lab, not the newsroom, which is why
+                clients bring me the messy, technical stuff: datasets that
+                need cleaning before they mean anything, findings that need
+                structure, documentation that needs to survive someone else
+                reading it. I organize it, analyze it, and write it up as a
+                report with a methodology, results and a clear recommendation
+                — not just a summary.
             </p>
 
         </div>
@@ -99,18 +122,30 @@
 
         <div class="container">
 
-            <p class="eyebrow">SERVICES</p>
+            <div class="section-head">
+                <p class="tag">02 — SERVICES</p>
+                <h2>How I can help</h2>
+            </div>
 
-            <h2>
-                How I can help
-            </h2>
+            <div class="service-lead">
 
-
-            <div class="services">
+                <div class="card-lead">
+                    <div>
+                        <span class="tag">Primary service</span>
+                        <h3>Scientific &amp; Technical Report Writing</h3>
+                        <p>
+                            Full reports for STEM research and applied
+                            work — methodology, results, discussion and
+                            recommendations, written to a standard that
+                            holds up with grad students, researchers and
+                            technical teams.
+                        </p>
+                    </div>
+                    <p class="card-lead-note">METHOD → ANALYSIS → REPORT → REVISION</p>
+                </div>
 
                 <div class="card">
                     <h3>Research Support</h3>
-
                     <p>
                         Literature searching, source organization,
                         research summaries and technical information
@@ -118,53 +153,31 @@
                     </p>
                 </div>
 
+            </div>
+
+            <div class="services">
 
                 <div class="card">
                     <h3>Data Analysis</h3>
-
                     <p>
-                        Data cleaning, descriptive analysis,
-                        calculations and practical interpretation.
+                        Data cleaning, descriptive analysis, calculations
+                        and practical interpretation.
                     </p>
                 </div>
-
 
                 <div class="card">
                     <h3>Data Visualization</h3>
-
                     <p>
-                        Clear charts, tables and visual summaries
-                        that make information easier to understand.
+                        Clear charts, tables and visual summaries that
+                        make information easier to understand.
                     </p>
                 </div>
-
-
-                <div class="card">
-                    <h3>Technical Reports</h3>
-
-                    <p>
-                        Professional reports containing methodology,
-                        results, discussion and recommendations.
-                    </p>
-                </div>
-
 
                 <div class="card">
                     <h3>Excel Reporting</h3>
-
                     <p>
-                        Spreadsheet organization, calculations,
-                        summaries and recurring reports.
-                    </p>
-                </div>
-
-
-                <div class="card">
-                    <h3>Technical Documentation</h3>
-
-                    <p>
-                        Clear and structured documentation for
-                        scientific, environmental and business work.
+                        Spreadsheet organization, calculations, summaries
+                        and recurring reports.
                     </p>
                 </div>
 
@@ -181,80 +194,65 @@
 
         <div class="container">
 
-            <p class="eyebrow">SELECTED WORK</p>
-
-            <h2>
-                Examples of my work
-            </h2>
-
+            <div class="section-head">
+                <p class="tag">03 — SELECTED WORK</p>
+                <h2>Examples of my work</h2>
+            </div>
 
             <div class="projects">
 
-
                 <div class="project">
 
-                    <div class="project-header">
-                        ENVIRONMENTAL ANALYSIS
-                    </div>
+                    <div class="project-header">SAMPLE REPORT — ENVIRONMENTAL</div>
 
                     <div class="project-body">
 
-                        <h3>
-                            Water Quality Assessment
-                        </h3>
+                        <h3>Water Quality Assessment</h3>
+
+                        <div class="meta-grid">
+                            <div><span>Type</span>Environmental data analysis</div>
+                            <div><span>Deliverable</span>Technical report (PDF)</div>
+                        </div>
 
                         <p>
-                            A technical assessment demonstrating
-                            environmental data organization,
-                            analysis, visualization and interpretation.
+                            A technical assessment demonstrating environmental
+                            data organization, analysis, visualization and
+                            interpretation.
                         </p>
 
-                        <a
-                            href="sample_water_quality_assessment_report.pdf"
-                            target="_blank"
-                            class="text-link">
-
-                            View Report →
-
+                        <a href="sample_water_quality_assessment_report.pdf" target="_blank" class="text-link">
+                            View report →
                         </a>
 
                     </div>
 
                 </div>
 
-
-
                 <div class="project">
 
-                    <div class="project-header">
-                        BUSINESS DATA ANALYSIS
-                    </div>
+                    <div class="project-header">SAMPLE REPORT — BUSINESS</div>
 
                     <div class="project-body">
 
-                        <h3>
-                            Sales & Operations Analysis
-                        </h3>
+                        <h3>Sales &amp; Operations Analysis</h3>
+
+                        <div class="meta-grid">
+                            <div><span>Type</span>Business data analysis</div>
+                            <div><span>Deliverable</span>Technical report (PDF)</div>
+                        </div>
 
                         <p>
-                            A business analysis demonstrating data
-                            preparation, KPI calculations, visualization
-                            and recommendations.
+                            A business analysis demonstrating data preparation,
+                            KPI calculations, visualization and recommendations.
                         </p>
 
-                        <a
-                            href="sample_business_sales_analysis_report.pdf"
-                            target="_blank"
-                            class="text-link">
-
-                            View Report →
-
+                        <a href="sample_business_sales_analysis_report.pdf" target="_blank" class="text-link">
+                            View report →
                         </a>
 
                     </div>
 
                 </div>
-
 
             </div>
 
@@ -269,70 +267,35 @@
 
         <div class="container">
 
-            <p class="eyebrow">
-                HOW I WORK
-            </p>
-
-            <h2>
-                Simple and transparent.
-            </h2>
-
+            <div class="section-head">
+                <p class="tag">04 — HOW I WORK</p>
+                <h2>Simple and transparent.</h2>
+            </div>
 
             <div class="process">
 
-                <div>
-                    <strong>01</strong>
-
-                    <h3>
-                        Brief
-                    </h3>
-
-                    <p>
-                        You explain the project and provide
-                        the available information.
-                    </p>
+                <div class="process-step">
+                    <strong>STEP 01</strong>
+                    <h3>Brief</h3>
+                    <p>You explain the project and share the available information.</p>
                 </div>
 
-
-                <div>
-                    <strong>02</strong>
-
-                    <h3>
-                        Analyze
-                    </h3>
-
-                    <p>
-                        I organize the information and
-                        perform the agreed analysis.
-                    </p>
+                <div class="process-step">
+                    <strong>STEP 02</strong>
+                    <h3>Analyze</h3>
+                    <p>I organize the information and run the agreed analysis.</p>
                 </div>
 
-
-                <div>
-                    <strong>03</strong>
-
-                    <h3>
-                        Deliver
-                    </h3>
-
-                    <p>
-                        You receive clear, professional
-                        deliverables.
-                    </p>
+                <div class="process-step">
+                    <strong>STEP 03</strong>
+                    <h3>Deliver</h3>
+                    <p>You receive clear, professional deliverables.</p>
                 </div>
 
-
-                <div>
-                    <strong>04</strong>
-
-                    <h3>
-                        Refine
-                    </h3>
-
-                    <p>
-                        I make reasonable revisions
-                        within the agreed scope.
-                    </p>
+                <div class="process-step">
+                    <strong>STEP 04</strong>
+                    <h3>Refine</h3>
+                    <p>I make reasonable revisions within the agreed scope.</p>
                 </div>
 
             </div>
@@ -348,28 +311,32 @@
 
         <div class="container">
 
-            <p class="eyebrow">
-                CONTACT
-            </p>
+            <p class="tag">05 — CONTACT</p>
 
-            <h2>
-                Have a project in mind?
-            </h2>
+            <h2>Have a project in mind?</h2>
 
-            <p>
-                Tell me what you're working on and what you
-                need help with.
-            </p>
+            <p>Tell me what you're working on and what you need help with — I usually reply within a day.</p>
 
-            <br>
+            <div class="contact-links">
+                <a href="mailto:maayadennis@gmail.com" class="button">Email me</a>
+                <a href="#" class="button outline">LinkedIn</a>
+                <a href="#" class="button outline">Fiverr</a>
+            </div>
 
-            <a
-                href="mailto:YOUR_EMAIL@example.com"
-                class="button">
-
-                Email Me
-
-            </a>
+            <div class="contact-details">
+                <div>
+                    <span>Email</span>
+                    maayadennis@gmail.com
+                </div>
+                <div>
+                    <span>Phone</span>
+                    +254 704 395 528
+                </div>
+                <div>
+                    <span>Location</span>
+                    Nairobi, Kenya
+                </div>
+            </div>
 
         </div>
 
@@ -377,16 +344,11 @@
 
 
     <footer>
-
-        <p>
-            © 2026 Dennis Maaga
-        </p>
-
-        <p>
-            Research • Data Analysis • Technical Reporting
-        </p>
-
+        <p>© 2026 Dennis Maaga</p>
+        <p>Research · Data Analysis · Technical Reporting</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
