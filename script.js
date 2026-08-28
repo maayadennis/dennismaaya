@@ -14,3 +14,9 @@ navLinks.querySelectorAll('a').forEach((link) => {
         menuToggle.setAttribute('aria-expanded', 'false');
     });
 });
+
+// Add a subtle shadow to the header once the page is scrolled
+const header = document.querySelector('header');
+window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 8);
+});
