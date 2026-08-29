@@ -278,7 +278,8 @@ nav {
     overflow: hidden;
 }
 
-.profile-photo img {
+.profile-photo img,
+.profile-photo svg {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -517,7 +518,8 @@ h2 {
     overflow: hidden;
 }
 
-.project-header img {
+.project-header img,
+.project-header svg {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -526,7 +528,8 @@ h2 {
     transition: transform 0.3s ease;
 }
 
-.project:hover .project-header img {
+.project:hover .project-header img,
+.project:hover .project-header svg {
     transform: scale(1.04);
 }
 
